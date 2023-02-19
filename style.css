@@ -337,3 +337,22 @@ a {
 }
 
 /* ----- Footer ----- */
+#footer {
+  height: 4rem;
+  background-color: var(--d-blue);
+}
+
+.copyright,
+.copyright a {
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.powered {
+  font-size: 0.6rem;
+  color: #fff;
+}
+
+.by {
+  color: var(--yellow);
+}
