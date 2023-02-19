@@ -38,8 +38,16 @@ a {
   display: flex;
 }
 
+.fd-column {
+  flex-direction: column;
+}
+
 .space-between {
   justify-content: space-between;
+}
+
+.jc-center {
+  justify-content: center;
 }
 
 .ai-center {
@@ -81,6 +89,31 @@ a {
 }
 
 /* ----- Hero ----- */
+#hero {
+  padding: 10rem 0;
+}
+
+.hero__title {
+  font-size: 4rem;
+  color: var(--d-blue);
+}
+
+.hero__subtitle {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 2px;
+  color: var(--m-blue);
+}
+
+.hero__img {
+  height: 250px;
+  width: 100%;
+  margin: 5rem;
+  background-image: url(./assets/hero-img.jpg);
+  background-position: center center;
+  background-size: cover;
+}
+
 /* ----- Pricing ----- */
 /* ----- Blogs ----- */
 /* ----- Contact ----- */
