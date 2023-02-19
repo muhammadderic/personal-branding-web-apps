@@ -1,8 +1,85 @@
 /* ===== VARIABLES ===== */
+* {
+  --d-blue: #0081C9;
+  --m-blue: #5BC0F8;
+  --l-blue: #86E5FF;
+  --yellow: #FFC93C;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  color: #111;
+  box-sizing: border-box;
+}
+
 /* ===== ELEMENTS ===== */
+a {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: #fff;
+  color: var(--m-blue);
+  border: none;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: var(--yellow);
+  color: #ffffff;
+}
+
 /* ===== BEHAVIOURS ===== */
+.d-flex {
+  display: flex;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
+
 /* ===== CLASSES ===== */
 /* ----- Header ----- */
+#header {
+  height: 4rem;
+  padding: 0 2rem;
+  background-color: var(--d-blue);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.header__logo {
+  height: 3rem;
+}
+
+.header__field {
+  width: 5rem;
+  text-align: center;
+}
+
+.header__link {
+  padding-bottom: 0.5rem;
+  color: #fff;
+  transition-duration: 0.3s;
+}
+
+.header__link:hover {
+  color: var(--yellow);
+  border-bottom: 2px solid var(--yellow);
+  transition-duration: 0.3s;
+}
+
+.header__button {
+  margin-left: 2rem;
+}
+
 /* ----- Hero ----- */
 /* ----- Pricing ----- */
 /* ----- Blogs ----- */
