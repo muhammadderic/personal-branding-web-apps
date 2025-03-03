@@ -4,6 +4,7 @@ import './main.css'
 import 'aos/dist/aos.css'
 import Hero from './components/Hero';
 import Skill from './components/Skill';
+import Experience from './components/Experience';
 
 function App() {
   useEffect(() => {
@@ -16,6 +17,7 @@ function App() {
     <main>
       <Hero />
       <Skill />
+      <Experience />
     </main>
   )
 }
