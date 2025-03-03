@@ -1,9 +1,12 @@
 import me from '../assets/img/me.png'
+import Navbar from './Navbar'
 
 export default function Hero() {
   return (
     <div className='relative overflow-hidden min-h-[550px] sm:min-h-[650px] flex flex-col items-center'>
       <div className='md:h-[700px] h-[990px] md:w-[1600px] w-[900px] bg-gradient-to-r absolute bg-blue-950 rounded-full transform rotate-6 -top-40 z-0'></div>
+
+      <Navbar />
 
       <section id='home' className='flex flex-col md:flex-row items-center justify-center w-full px-4 md:px-52 pb-4 md:pd-24 md:pt-32 pt-24 md:pb-24 mt-24 md:mt-0 z-10'>
         <div data-aos='fade-up' className='flex-1 md:text-left'>
