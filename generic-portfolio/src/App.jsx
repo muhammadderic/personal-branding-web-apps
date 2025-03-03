@@ -5,6 +5,7 @@ import 'aos/dist/aos.css'
 import Hero from './components/Hero';
 import Skill from './components/Skill';
 import Experience from './components/Experience';
+import Project from './components/Project';
 
 function App() {
   useEffect(() => {
@@ -18,6 +19,7 @@ function App() {
       <Hero />
       <Skill />
       <Experience />
+      <Project />
     </main>
   )
 }
