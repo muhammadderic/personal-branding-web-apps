@@ -1,12 +1,20 @@
+import { useEffect } from 'react';
+import AOS from 'aos'
 import './main.css'
+import 'aos/dist/aos.css'
+import Hero from './components/Hero';
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+    })
+  }, []);
+
   return (
-    <div>
-      <h1 className='text-red-500'>
-        Hello deric
-      </h1>
-    </div>
+    <main>
+      <Hero />
+    </main>
   )
 }
 
