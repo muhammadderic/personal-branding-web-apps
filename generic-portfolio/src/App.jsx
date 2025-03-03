@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Skill from './components/Skill';
 import Experience from './components/Experience';
 import Project from './components/Project';
+import Contact from './components/Contact';
 
 function App() {
   useEffect(() => {
@@ -20,6 +21,7 @@ function App() {
       <Skill />
       <Experience />
       <Project />
+      <Contact />
     </main>
   )
 }
