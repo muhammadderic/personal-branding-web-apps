@@ -7,6 +7,7 @@ import Skill from './components/Skill';
 import Experience from './components/Experience';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
   useEffect(() => {
@@ -22,6 +23,7 @@ function App() {
       <Experience />
       <Project />
       <Contact />
+      <Footer />
     </main>
   )
 }
