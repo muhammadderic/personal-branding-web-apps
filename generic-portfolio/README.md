@@ -3,7 +3,6 @@
 <!-- MY PROJECT -->
 <br />
 <div align="center">
-  <img src="./assets/my-logo-black.png" alt="Logo" width="80" height="80">
   <h3 align="center">Mucodevde</h3>
 </div>
 
@@ -19,9 +18,9 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![deric.io](./assets/deric.io-ss.png)
+![deric.io](./generic-portfolio.jpeg)
 
-Create single page website using HTML and CSS
+Create single page portfolio web using react js and tailwind
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -29,7 +28,7 @@ Create single page website using HTML and CSS
 
 This section should list any major frameworks/libraries used to bootstrap the project.
 
-* [HTML](https://html.spec.whatwg.org/multipage/)
-* [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS)
+* [ReactJS](https://vite.dev/guide/)
+* [Tailwind](https://tailwindcss.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
